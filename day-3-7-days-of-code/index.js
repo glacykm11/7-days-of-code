@@ -18,15 +18,13 @@ if(resposta == 'especializar'){
 
 let linguagens;
 let maisLinguagensParaAprender;
-let arrayDeLinguagens;
+let arrayDeLinguagens = [];
 
 do{
     linguagens = prompt("Quais são as tecnologias nas quais você gostaria de se especializar ou de conhecer?");
     maisLinguagensParaAprender = prompt("Tem mais alguma tecnologia que você gostaria de aprender?");
     
-    for(let i; maisLinguagensParaAprender > maisLinguagensParaAprender.length; i++){
-        arrayDeLinguagens[i] = linguagens;
-    }
+    arrayDeLinguagens.push(linguagens);
         
 }while(maisLinguagensParaAprender == 'ok');
 
