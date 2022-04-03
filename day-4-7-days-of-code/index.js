@@ -2,8 +2,7 @@ function gerarNumeroAleatrio(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-//let numeroAleatorio = gerarNumeroAleatrio(0, 10);
-let numeroAleatorio = 2;
+let numeroAleatorio = gerarNumeroAleatrio(0, 10);
 let count = 3;
 
 let chute = prompt("Qual valor você deseja chutar?");
