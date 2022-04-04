@@ -6,7 +6,6 @@ let arrayLaticinios = [];
 let arrayCongelados = [];
 let arrayDoces = [];
 
-//resposta = prompt("Deseja adicionar uma comida na sua lista de compras?");
 resposta = prompt("Deseja adicionar uma comida na sua lista de compras?");
 
 while (resposta == 'sim'){
